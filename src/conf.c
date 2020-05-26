@@ -285,7 +285,7 @@ static struct option_t g_options[] = {
 	{"--verbosity", 1, oVerbosity},
 #ifdef CMD
 	{"--cmd-disable-stdin", 0, oCmdDisableStdin},
-	{"--cmd-port", 1, oCmdPath},
+	{"--cmd-path", 1, oCmdPath},
 #endif
 #ifdef DNS
 	{"--dns-port", 1, oDnsPort},
